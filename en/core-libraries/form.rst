@@ -183,7 +183,7 @@ Creating HTML with FormHelper
 
 Once you've created a Form class, you'll likely want to create an HTML form for
 it. FormHelper understands Form objects just like ORM entities::
-
+// in /Somewhere/form.ctp ??
     echo $this->Form->create($contact);
     echo $this->Form->input('name');
     echo $this->Form->input('email');

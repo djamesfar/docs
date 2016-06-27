@@ -110,7 +110,7 @@ class::
 
     // Link records for the first time.
     $tag1 = $articlesTable->Tags->findByName('cakephp')->first();
-    $tag1->_joinData = $articlesTable->ArticlesTags->newEntity();
+    $tag1->_joinData = $articlesTable->Tags->newEntity();
     $tag1->_joinData->tagComment = 'The CakePHP ORM is so powerful!';
 
     $articlesTable->Tags->link($article, [$tag1]);

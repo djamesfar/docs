@@ -51,7 +51,7 @@ these options enabled would be::
 
 .. note::
 
-    Setting ``cascadeCallbacks`` to ``true``, results in considerably slower deletes
+    Setting ``cascadeCallbacks`` to ``true`` results in considerably slower deletes
     when compared to bulk deletes. The cascadeCallbacks option should only be
     enabled when your application has important work handled by event listeners.
 
